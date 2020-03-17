@@ -11,8 +11,9 @@
 	<groupId>pilszak</groupId>
 	<artifactId>taco-cloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>taco-cloud</name>
-	<description>Application Taco Cloud</description>
+	<description>Taco Cloud Application</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -45,6 +46,17 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+    		<groupId>org.seleniumhq.selenium</groupId>
+    		<artifactId>selenium-java</artifactId>
+    		<scope>test</scope>
+		</dependency>
+		<dependency>
+    		<groupId>org.seleniumhq.selenium</groupId>
+    		<artifactId>htmlunit-driver</artifactId>
+    		<scope>test</scope>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
